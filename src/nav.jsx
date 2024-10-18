@@ -5,7 +5,7 @@ function Navigation () {
         <nav>
             <div class="nav-content">
             <div class="logo">
-                <a href="#">My Job Portfolio</a>
+                <a href="#">Profile Portfolio</a>
             </div>
             <ul class="nav-links">
                 <li><a href="#">Home</a></li>
