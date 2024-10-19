@@ -1,7 +1,7 @@
 import myprofile from './assets/myprofile.jpg'
 
 
-function Header () {
+function Profile () {
     return(
         <div>
         <div className="card">
@@ -74,10 +74,7 @@ function Header () {
 
         <div className="card2">
             <h2>About Me</h2>
-            <p>I'm John Daryll R. Sampilingan, a passionate FullStack web developer and a current 4th year student at Holy Child College of Davao. 
-                While I don't have formal work experience yet, my dedication to learning and improving my skills 
-                ensures I can deliver results better than anyone. I'm constantly honing my expertise in both front-end 
-                and back-end technologies, and I'm excited to apply my knowledge to real-world projects.</p>
+            <p>I'm John Daryll R. Sampilingan, a passionate FullStack web developer and 4th year student at Holy Child College of Davao. While I don't have formal work experience yet, my dedication to learning and improving my skills ensures I can deliver results better than anyone. I'm constantly honing my expertise in both front-end and back-end technologies, and I'm excited to apply my knowledge to real-world projects.</p>
 
             <div className='skills'>
             <h3>Technical Skills</h3>
@@ -117,7 +114,7 @@ function Header () {
             <div className='schools'>
             <p>F. Bangoy National High School</p>
             <h5>HIGH SCHOOL</h5>
-            <h6>2014-2016</h6>
+            <h6>2014-2018</h6>
             </div>
 
             <div className='schools'>
@@ -146,4 +143,4 @@ function Header () {
     );
 
 }
-export default Header
+export default Profile

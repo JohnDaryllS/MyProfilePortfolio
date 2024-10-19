@@ -1,23 +1,22 @@
+import { Link } from 'react-router-dom';
 
-
-function Navigation () {
-    return(
+function Navigation() {
+    return (
         <nav>
-            <div class="nav-content">
-            <div class="logo">
-                <a href="#">Profile Portfolio</a>
-            </div>
-            <ul class="nav-links">
-                <li><a href="#">Profile</a></li>
-                <li><a href="#">Achievements</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Resources</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+            <div className="nav-content">
+                <div className="logo">
+                    <a href="#">Profile Portfolio</a>
+                </div>
+                <ul className="nav-links">
+                    <li><Link to="/profile">Profile</Link></li>
+                    <li><Link to="/acheivements">Acheivements</Link></li>
+                    <li><Link to="/project">Project</Link></li>
+                    <li><Link to="/resources">Resources</Link></li>
+                    <li><Link to="/contact">Contact</Link></li>
+                </ul>
             </div>
         </nav>
     );
-
 }
 
-export default Navigation
+export default Navigation;
