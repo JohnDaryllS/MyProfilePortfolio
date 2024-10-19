@@ -8,7 +8,7 @@ function Navigation () {
                 <a href="#">Profile Portfolio</a>
             </div>
             <ul class="nav-links">
-                <li><a href="#">Home</a></li>
+                <li><a href="#">Profile</a></li>
                 <li><a href="#">Achievements</a></li>
                 <li><a href="#">Projects</a></li>
                 <li><a href="#">Resources</a></li>

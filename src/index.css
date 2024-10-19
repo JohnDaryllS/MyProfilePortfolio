@@ -15,6 +15,7 @@ nav{
   width: 100%;
   padding: 20px;
   transition: all 0.4s ease;
+  box-shadow: 5px 5px 30px #ffd900af;
 }
 nav.sticky{
   padding: 15px 20px;
@@ -69,7 +70,8 @@ nav.sticky .logo a{
   border-radius: 2em;
   border: 5px solid #FFD700;
   padding: 10px;
-  margin: 100px 0 0 100px;
+  float: left;
+  margin: 120px 0 0 50px;
   background-color: #191919d3;
   box-shadow: 5px 5px 30px #ffd900af,
               -5px -5px 30px #ffd900af;
@@ -149,3 +151,63 @@ ul, li .card {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+.card2 {
+  width: 1230px;
+  height: 800px;
+  border-radius: 2em;
+  border: 5px solid #FFD700;
+  padding: 10px;
+  margin: 120px 50px 0 20px;
+  background-color: #191919d3;
+  box-shadow: 5px 5px 30px #ffd900af,
+              -5px -5px 30px #ffd900af;
+  float: right;
+}
+
+.card2 h2 {
+  margin-top: 20px;
+  color: #fce803;
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.card2 p {
+  color: white;
+  font-size: 18px;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.card2 h3 {
+  color: #fce803;
+  font-size: 30px;
+  padding: 50px 150px 0 50px;
+}
+
+.card2 h4 {
+  color: rgb(182, 171, 171);
+  padding-top: 10px;
+  padding-left: 50px;
+}
+
+.card2 h5 {
+  color: rgb(182, 171, 171);
+  padding-top: 10px;
+  padding-left: 50px;
+}
+
+.card2 h6 {
+  color: rgb(182, 171, 171);
+  padding-top: 10px;
+  padding-left: 50px;
+}
+
+.skills {
+  float:left;
+}
+
+.schools {
+  float: left;
+}

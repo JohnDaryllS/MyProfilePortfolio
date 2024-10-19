@@ -3,6 +3,7 @@ import myprofile from './assets/myprofile.jpg'
 
 function Header () {
     return(
+        <div>
         <div className="card">
         <center>
             <img src={myprofile} alt="myprofile" />
@@ -71,6 +72,77 @@ function Header () {
 
         </div>
 
+        <div className="card2">
+            <h2>About Me</h2>
+            <p>I'm John Daryll R. Sampilingan, a passionate FullStack web developer and a current 4th year student at Holy Child College of Davao. 
+                While I don't have formal work experience yet, my dedication to learning and improving my skills 
+                ensures I can deliver results better than anyone. I'm constantly honing my expertise in both front-end 
+                and back-end technologies, and I'm excited to apply my knowledge to real-world projects.</p>
+
+            <div className='skills'>
+            <h3>Technical Skills</h3>
+            <ul>
+                <li>MS Office</li>
+                <li>Video Editing</li>
+                <li>Image Editing</li>
+                <li>Adobe Photoshop and Adobe Illustrator</li>
+                <li>Animation</li>
+            </ul>
+            </div>
+
+            <div className='skills'>
+            <h3>Hobbies</h3>
+            <ul>
+                <li>Playing Online Games</li>
+                <li>Badminton</li>
+                <li>BasketBall</li>
+                <li>Biking</li>
+                <li>Drawing</li>
+                <li>Coding</li>
+            </ul>
+            </div>
+
+            <div className='skills'>
+            <h3>Certifications</h3>
+            <ul>
+                <li>NCII – Computer System Servicing</li>
+                <li>NCIII - Visual Graphic Design</li>
+                <li>NCIII – Web Development</li>
+                <li>NCII - Animation</li>
+            </ul>
+            </div>
+
+            <div className='skills'>
+            <h3>Education</h3>
+            <div className='schools'>
+            <p>F. Bangoy National High School</p>
+            <h5>HIGH SCHOOL</h5>
+            <h6>2014-2016</h6>
+            </div>
+
+            <div className='schools'>
+            <p>Davao Wisdom Academy</p>
+            <h4>Information Communication Technology</h4>
+            <h5>SENIOR HIGH SCHOOL</h5>
+            <h6>2018-2020</h6>
+            </div>
+
+            <div className='schools'>
+            <p>Holy Child College of Davao</p>
+            <h4>Diploma of Information Technology</h4>
+            <h5>3 years Diploma</h5>
+            <h6>2020-2023</h6>
+            </div>
+
+            <div className='schools'>
+            <p>Holy Child College of Davao</p>
+            <h4>Bachelor of Science in Information Technology</h4>
+            <h5>College</h5>
+            <h6>2023-2025</h6>
+            </div>
+            </div>
+        </div>
+        </div>
     );
 
 }
