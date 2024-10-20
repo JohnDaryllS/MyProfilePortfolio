@@ -71,7 +71,7 @@ nav.sticky .logo a{
   border: 5px solid #FFD700;
   padding: 10px;
   float: left;
-  margin: 120px 0 0 50px;
+  margin: 140px 0 0 50px;
   background-color: #191919d3;
   box-shadow: 5px 5px 30px #ffd900af,
               -5px -5px 30px #ffd900af;
@@ -157,7 +157,7 @@ ul, li .card {
   border-radius: 2em;
   border: 5px solid #FFD700;
   padding: 10px;
-  margin: 120px 50px 0 20px;
+  margin: 140px 50px 0 20px;
   background-color: #191919d3;
   box-shadow: 5px 5px 30px #ffd900af,
               -5px -5px 30px #ffd900af;
@@ -222,7 +222,7 @@ ul, li .card {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   float: left;
-  margin: 40px;
+  margin: 45px;
   box-shadow: 5px 5px 30px #ffd900af,
               -5px -5px 30px #ffd900af;
 }
@@ -245,7 +245,7 @@ ul, li .card {
 
 .card2 .buttons button {
   padding: 10px 20px;
-  background-color: #007BFF;
+  background-color: hsla(51, 100%, 50%, 0.786);
   color: #fff;
   border: none;
   cursor: pointer;
@@ -261,7 +261,7 @@ ul, li .card {
 }
 
 .card2 .buttons button:hover {
-  background-color: #0056b3;
+  background-color: hsla(51, 100%, 50%, 0.5);
 }
 
 .cardproject:hover img {
@@ -270,4 +270,25 @@ ul, li .card {
 
 .card2 .cardproject:hover .buttons {
   display: flex;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: hsla(51, 100%, 50%, 0.5);
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
