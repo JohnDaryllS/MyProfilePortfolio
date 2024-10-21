@@ -72,7 +72,7 @@ function Achievements () {
         </div>
 
         <div className="card2">
-            <h2>Acheivements</h2>
+            <h2>Achievements</h2>
         </div>
         </div>
     );
