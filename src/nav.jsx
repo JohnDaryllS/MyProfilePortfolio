@@ -9,7 +9,7 @@ function Navigation() {
                 </div>
                 <ul className="nav-links">
                     <li><Link to="/profile">Profile</Link></li>
-                    <li><Link to="/acheivements">Acheivements</Link></li>
+                    <li><Link to="/acheivements">Achievements</Link></li>
                     <li><Link to="/project">Project</Link></li>
                     <li><Link to="/resources">Resources</Link></li>
                     <li><Link to="/contact">Contact</Link></li>
