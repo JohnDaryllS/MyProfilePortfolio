@@ -1,9 +1,18 @@
 import { useState } from 'react';
+import box from './assets/faviconV2.png'
+import eyecon from './assets/faviconV3.png'
+import fonts from './assets/faviconV4.png'
+import Adobe from './assets/faviconV5.png'
+import larsen from './assets/faviconV6.png'
+import UI from './assets/faviconV7.png'
+import neo from './assets/faviconV8.png'
+import chart from './assets/faviconV9.png'
+import ani from './assets/faviconV10.png'
 
 
 function Resources () {
 
-    const [selectedSection, setSelectedSection] = useState('');
+    const [selectedSection, setSelectedSection] = useState('All');
 
     const handleClick = (section) => {
         setSelectedSection(section);
@@ -15,7 +24,6 @@ function Resources () {
             <ul className='list'>
                 <li onClick={() => handleClick('All')}>All</li>
                 <li onClick={() => handleClick('CSS')}>CSS</li>
-                <li onClick={() => handleClick('UI Elements')}>UI Elements</li>
                 <li onClick={() => handleClick('Icons')}>Icons</li>
                 <li onClick={() => handleClick('Animation')}>Animation</li>
                 <li onClick={() => handleClick('Color')}>Color</li>
@@ -23,68 +31,137 @@ function Resources () {
                 <li onClick={() => handleClick('3D Parallax')}>3D Parallax</li>
                 <li onClick={() => handleClick('Design')}>Design</li>
                 <li onClick={() => handleClick('API')}>API</li>
+                <li onClick={() => handleClick('OTHERS')}>Others</li>
             </ul>
         </div>
 
         <div className="card4">
                 {selectedSection === 'All' && (
                     <div>
-                        <h3>All Resources</h3>
-                        <p>Here you can find all learning resources:</p>
-                        <h4>CSS Resources</h4>
-                        <p>Here you can find the best CSS learning resources...</p>
-                        <h4>UI Elements Resources</h4>
-                        <p>Learn more about UI Elements...</p>
-                        <h4>Icons Resources</h4>
-                        <p>Here you can find various icon libraries...</p>
-                        <h4>Animation Resources</h4>
-                        <p>Discover animation techniques and libraries...</p>
-                        <h4>Color Resources</h4>
-                        <p>Explore color theory and palettes...</p>
-                        <h4>Fonts Resources</h4>
-                        <p>Find great font combinations and sources...</p>
-                        <h4>3D Parallax Resources</h4>
-                        <p>Learn about 3D parallax design...</p>
-                        <h4>Design Resources</h4>
-                        <p>Check out design resources and tutorials...</p>
-                        <h4>API Resources</h4>
-                        <p>Understand how to work with APIs...</p>
+                        <a href="https://cssgenerator.org/box-shadow-css-generator.html" target='_blank'><div className='resources'>
+                            <img src={box} alt="" />
+                            <h3>Box Shadow CSS Generator</h3>
+                        </div></a>
+                        <a href="https://www.iconfinder.com/" target='_blank'><div className='resources'>
+                            <img src={eyecon} alt="" />
+                            <h3>Icon Finder</h3>
+                        </div></a>
+                        <a href="https://fonts.google.com/" target='_blank'><div className='resources'>
+                            <img src={fonts} alt="" />
+                            <h3>Google Fonts</h3>
+                        </div></a>
+                        <a href="https://color.adobe.com/create/color-wheel" target='_blank'><div className='resources'>
+                            <img src={Adobe} alt="" />
+                            <h3>Adobe Color</h3>
+                        </div></a>
+                        <a href="https://larsenwork.com/easing-gradients/" target='_blank'><div className='resources'>
+                            <img src={larsen} alt="" />
+                            <h3>Easing Gradients</h3>
+                        </div></a>
+                        <a href="https://uiverse.io/profile/all" target='_blank'><div className='resources'>
+                            <img src={UI} alt="" />
+                            <h3>UIVerse</h3>
+                        </div></a>
+                        <a href="https://neumorphism.io/#e0e0e0" target='_blank'><div className='resources'>
+                            <img src={neo} alt="" />
+                            <h3>Neumorphism.io</h3>
+                        </div></a>
+                        <a href="https://chartscss.org/" target='_blank'><div className='resources'>
+                            <img src={chart} alt="" />
+                            <h3>Charts.css</h3>
+                        </div></a>
+                        <a href="https://animatedbackgrounds.me/" target='_blank'><div className='resources'>
+                            <img src={ani} alt="" />
+                            <h3>Animated Backgrounds</h3>
+                        </div></a>
+                        <a href="" target='_blank'><div className='resources'>
+                            <img src={box} alt="" />
+                            <h3>Box Shadow CSS Generator</h3>
+                        </div></a>
+                        <a href="" target='_blank'><div className='resources'>
+                            <img src={box} alt="" />
+                            <h3>Box Shadow CSS Generator</h3>
+                        </div></a>
+                        <a href="" target='_blank'><div className='resources'>
+                            <img src={box} alt="" />
+                            <h3>Box Shadow CSS Generator</h3>
+                        </div></a>
+                        <a href="" target='_blank'><div className='resources'>
+                            <img src={box} alt="" />
+                            <h3>Box Shadow CSS Generator</h3>
+                        </div></a>
+                        <a href="" target='_blank'><div className='resources'>
+                            <img src={box} alt="" />
+                            <h3>Box Shadow CSS Generator</h3>
+                        </div></a>
+                        <a href="" target='_blank'><div className='resources'>
+                            <img src={box} alt="" />
+                            <h3>Box Shadow CSS Generator</h3>
+                        </div></a>
+                        <a href="" target='_blank'><div className='resources'>
+                            <img src={box} alt="" />
+                            <h3>Box Shadow CSS Generator</h3>
+                        </div></a>
+                        <a href="" target='_blank'><div className='resources'>
+                            <img src={box} alt="" />
+                            <h3>Box Shadow CSS Generator</h3>
+                        </div></a>
                     </div>
                 )}
                 {selectedSection === 'CSS' && (
                     <div>
-                        <h3>CSS Resources</h3>
-                        <p>Here you can find the best CSS learning resources...</p>
-                    </div>
-                )}
-                {selectedSection === 'UI Elements' && (
-                    <div>
-                        <h3>UI Elements Resources</h3>
-                        <p>Learn more about UI Elements...</p>
+                        <a href="https://cssgenerator.org/box-shadow-css-generator.html" target='_blank'><div className='resources'>
+                            <img src={box} alt="" />
+                            <h3>Box Shadow CSS Generator</h3>
+                        </div></a>
+                        <a href="https://larsenwork.com/easing-gradients/" target='_blank'><div className='resources'>
+                            <img src={larsen} alt="" />
+                            <h3>Easing Gradients</h3>
+                        </div></a>
+                        <a href="https://uiverse.io/profile/all" target='_blank'><div className='resources'>
+                            <img src={UI} alt="" />
+                            <h3>UIVerse</h3>
+                        </div></a>
+                        <a href="https://neumorphism.io/#e0e0e0" target='_blank'><div className='resources'>
+                            <img src={neo} alt="" />
+                            <h3>Neumorphism.io</h3>
+                        </div></a>
+                        <a href="https://chartscss.org/" target='_blank'><div className='resources'>
+                            <img src={chart} alt="" />
+                            <h3>Charts.css</h3>
+                        </div></a>
                     </div>
                 )}
                 {selectedSection === 'Icons' && (
                     <div>
-                        <h3>Icons Resources</h3>
-                        <p>Here you can find various icon libraries...</p>
+                        <a href="https://www.iconfinder.com/" target='_blank'><div className='resources'>
+                            <img src={eyecon} alt="" />
+                            <h3>Icon Finder</h3>
+                        </div></a>
                     </div>
                 )}
                 {selectedSection === 'Animation' && (
                     <div>
-                        <h3>Animation Resources</h3>
-                        <p>Discover animation techniques and libraries...</p>
+                        <a href="https://animatedbackgrounds.me/" target='_blank'><div className='resources'>
+                            <img src={ani} alt="" />
+                            <h3>Animated Backgrounds</h3>
+                        </div></a>
                     </div>
                 )}
                 {selectedSection === 'Color' && (
                     <div>
-                        <h3>Color Resources</h3>
-                        <p>Explore color theory and palettes...</p>
+                        <a href="https://color.adobe.com/create/color-wheel" target='_blank'><div className='resources'>
+                            <img src={Adobe} alt="" />
+                            <h3>Adobe Color</h3>
+                        </div></a>
                     </div>
                 )}
                 {selectedSection === 'Fonts' && (
                     <div>
-                        <h3>Fonts Resources</h3>
-                        <p>Find great font combinations and sources...</p>
+                        <a href="https://fonts.google.com/" target='_blank'><div className='resources'>
+                            <img src={fonts} alt="" />
+                            <h3>Google Fonts</h3>
+                        </div></a>
                     </div>
                 )}
                 {selectedSection === '3D Parallax' && (
@@ -103,6 +180,12 @@ function Resources () {
                     <div>
                         <h3>API Resources</h3>
                         <p>Understand how to work with APIs...</p>
+                    </div>
+                )}
+                {selectedSection === 'Others' && (
+                    <div>
+                        <h3>UI Elements Resources</h3>
+                        <p>Learn more about UI Elements...</p>  
                     </div>
                 )}
             </div>

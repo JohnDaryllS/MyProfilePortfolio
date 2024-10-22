@@ -301,17 +301,17 @@ ul, li .card {
   background-color: #191919d3;
   box-shadow: 5px 5px 30px #ffd900af,
               -5px -5px 30px #ffd900af;
-  display: flex;                 /* Use flexbox for layout */
-  flex-direction: column;        /* Stack items vertically */
-  align-items: center;           /* Center items horizontally */
-  justify-content: center;       /* Center items vertically */
+  display: flex;                 
+  flex-direction: column;        
+  align-items: center;          
+  justify-content: center;    
 }
 
 .card3 .list {
-  list-style-type: none;         /* Remove bullet points */
-  padding: 0;                    /* Remove default padding */
-  margin: 0;                     /* Remove default margin */
-  width: 100%;                   /* Ensure it takes full width */
+  list-style-type: none;  
+  padding: 0;               
+  margin: 0;      
+  width: 100%; 
 }
 
 .card3 .list li {
@@ -319,8 +319,8 @@ ul, li .card {
   color: white;
   margin: 0;
   text-align: center;
-  width: 100%;                   /* Make list items full width */
-  cursor: pointer;               /* Change cursor to pointer on hover */
+  width: 100%;     
+  cursor: pointer;
 }
 
 .card3 .list li:hover {
@@ -335,7 +335,7 @@ ul, li .card {
   height: 800px;
   border-radius: 2em;
   border: 5px solid #FFD700;
-  padding: 10px;
+  padding: 60px;
   margin: 140px 50px 0 20px;
   background-color: #191919d3;
   box-shadow: 5px 5px 30px #ffd900af,
@@ -343,4 +343,31 @@ ul, li .card {
   float: right;
   overflow: auto;
   scrollbar-color: rgba(255, 255, 255, 0.) rgba(255, 255, 255, 0);
+}
+
+.card4 .resources {
+  width: 285px;
+  max-height: 200px;
+  background-color: #1db0d4;
+  text-align: center;
+  border-radius: 20px;
+  padding: 20px;
+  color: white;
+  margin: 20px;
+  float: left;
+  transition: transform 0.3s ease;
+}
+
+.card4 .resources:hover{
+  transform: scale(1.1);
+}
+
+.card4 .resources img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.card4 .resources h3 {
+  padding-top: 20px;
 }
