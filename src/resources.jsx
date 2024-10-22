@@ -161,6 +161,10 @@ function Resources () {
                             <img src={ani} alt="" />
                             <h3>Animated Backgrounds</h3>
                         </div></a>
+                        <a href="https://michalsnik.github.io/aos/" target='_blank'><div className='resources'>
+                            <img src="" alt="" />
+                            <h3>Animate on Scroll Library</h3>
+                        </div></a>
                     </div>
                 )}
                 {selectedSection === 'Color' && (
