@@ -348,7 +348,7 @@ ul, li .card {
 .card4 .resources {
   width: 285px;
   max-height: 200px;
-  background-color: #1db0d4;
+  background-color: rgb(62, 68, 66);
   text-align: center;
   border-radius: 20px;
   padding: 20px;

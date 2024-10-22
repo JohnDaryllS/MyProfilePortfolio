@@ -8,6 +8,13 @@ import UI from './assets/faviconV7.png'
 import neo from './assets/faviconV8.png'
 import chart from './assets/faviconV9.png'
 import ani from './assets/faviconV10.png'
+import smooth from './assets/favicon11.png'
+import threed from './assets/faviconV12.png'
+import awesome from './assets/faviconV13.png'
+import hunt from './assets/faviconV14.png'
+import draw from './assets/faviconV15.png'
+import wave from './assets/faviconV16.png'
+import atopos from './assets/faviconV17.png'
 
 
 function Resources () {
@@ -28,7 +35,7 @@ function Resources () {
                 <li onClick={() => handleClick('Animation')}>Animation</li>
                 <li onClick={() => handleClick('Color')}>Color</li>
                 <li onClick={() => handleClick('Fonts')}>Fonts</li>
-                <li onClick={() => handleClick('3D Parallax')}>3D Parallax</li>
+                <li onClick={() => handleClick('3D')}>3D</li>
                 <li onClick={() => handleClick('Design')}>Design</li>
                 <li onClick={() => handleClick('API')}>API</li>
                 <li onClick={() => handleClick('OTHERS')}>Others</li>
@@ -74,37 +81,37 @@ function Resources () {
                             <img src={ani} alt="" />
                             <h3>Animated Backgrounds</h3>
                         </div></a>
-                        <a href="" target='_blank'><div className='resources'>
-                            <img src={box} alt="" />
-                            <h3>Box Shadow CSS Generator</h3>
+                        <a href="https://shadows.brumm.af/" target='_blank'><div className='resources'>
+                            <img src={smooth} alt="" />
+                            <h3>Smooth Shadow</h3>
                         </div></a>
-                        <a href="" target='_blank'><div className='resources'>
-                            <img src={box} alt="" />
-                            <h3>Box Shadow CSS Generator</h3>
+                        <a href="https://pixcap.com/" target='_blank'><div className='resources'>
+                            <img src={threed} alt="" />
+                            <h3>Pixcap</h3>
                         </div></a>
-                        <a href="" target='_blank'><div className='resources'>
-                            <img src={box} alt="" />
-                            <h3>Box Shadow CSS Generator</h3>
+                        <a href="https://fontawesome.com/icons" target='_blank'><div className='resources'>
+                            <img src={awesome} alt="" />
+                            <h3>Font Awesome</h3>
                         </div></a>
-                        <a href="" target='_blank'><div className='resources'>
-                            <img src={box} alt="" />
-                            <h3>Box Shadow CSS Generator</h3>
+                        <a href="https://colorhunt.co/" target='_blank'><div className='resources'>
+                            <img src={hunt} alt="" />
+                            <h3>Color Hunt</h3>
                         </div></a>
-                        <a href="" target='_blank'><div className='resources'>
-                            <img src={box} alt="" />
-                            <h3>Box Shadow CSS Generator</h3>
+                        <a href="https://undraw.co/illustrations" target='_blank'><div className='resources'>
+                            <img src={draw} alt="" />
+                            <h3>unDraw</h3>
                         </div></a>
-                        <a href="" target='_blank'><div className='resources'>
-                            <img src={box} alt="" />
-                            <h3>Box Shadow CSS Generator</h3>
+                        <a href="https://getwaves.io/" target='_blank'><div className='resources'>
+                            <img src={wave} alt="" />
+                            <h3>Get Waves</h3>
                         </div></a>
-                        <a href="" target='_blank'><div className='resources'>
-                            <img src={box} alt="" />
-                            <h3>Box Shadow CSS Generator</h3>
+                        <a href="https://michalsnik.github.io/aos/" target='_blank'><div className='resources'>
+                            <img src="" alt="" />
+                            <h3>Animate on Scroll Library</h3>
                         </div></a>
-                        <a href="" target='_blank'><div className='resources'>
-                            <img src={box} alt="" />
-                            <h3>Box Shadow CSS Generator</h3>
+                        <a href="https://atroposjs.com/" target='_blank'><div className='resources'>
+                            <img src={atopos} alt="" />
+                            <h3>Atropos JS</h3>
                         </div></a>
                     </div>
                 )}
@@ -130,6 +137,10 @@ function Resources () {
                             <img src={chart} alt="" />
                             <h3>Charts.css</h3>
                         </div></a>
+                        <a href="https://shadows.brumm.af/" target='_blank'><div className='resources'>
+                            <img src={smooth} alt="" />
+                            <h3>Smooth Shadow</h3>
+                        </div></a>
                     </div>
                 )}
                 {selectedSection === 'Icons' && (
@@ -137,6 +148,10 @@ function Resources () {
                         <a href="https://www.iconfinder.com/" target='_blank'><div className='resources'>
                             <img src={eyecon} alt="" />
                             <h3>Icon Finder</h3>
+                        </div></a>
+                        <a href="https://fontawesome.com/icons" target='_blank'><div className='resources'>
+                            <img src={awesome} alt="" />
+                            <h3>Font Awesome</h3>
                         </div></a>
                     </div>
                 )}
@@ -154,6 +169,10 @@ function Resources () {
                             <img src={Adobe} alt="" />
                             <h3>Adobe Color</h3>
                         </div></a>
+                        <a href="https://colorhunt.co/" target='_blank'><div className='resources'>
+                            <img src={hunt} alt="" />
+                            <h3>Color Hunt</h3>
+                        </div></a>
                     </div>
                 )}
                 {selectedSection === 'Fonts' && (
@@ -164,16 +183,28 @@ function Resources () {
                         </div></a>
                     </div>
                 )}
-                {selectedSection === '3D Parallax' && (
+                {selectedSection === '3D' && (
                     <div>
-                        <h3>3D Parallax Resources</h3>
-                        <p>Learn about 3D parallax design...</p>
+                        <a href="https://pixcap.com/" target='_blank'><div className='resources'>
+                            <img src={threed} alt="" />
+                            <h3>Pixcap</h3>
+                        </div></a>
+                        <a href="https://atroposjs.com/" target='_blank'><div className='resources'>
+                            <img src={atopos} alt="" />
+                            <h3>Atropos JS</h3>
+                        </div></a>
                     </div>
                 )}
                 {selectedSection === 'Design' && (
                     <div>
-                        <h3>Design Resources</h3>
-                        <p>Check out design resources and tutorials...</p>
+                        <a href="https://undraw.co/illustrations" target='_blank'><div className='resources'>
+                            <img src={draw} alt="" />
+                            <h3>unDraw</h3>
+                        </div></a>
+                        <a href="https://getwaves.io/" target='_blank'><div className='resources'>
+                            <img src={wave} alt="" />
+                            <h3>Get Waves</h3>
+                        </div></a>
                     </div>
                 )}
                 {selectedSection === 'API' && (
