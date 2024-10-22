@@ -71,8 +71,22 @@ function Resources () {
 
         </div>
 
-        <div className="card2">
-            <h2>Resources</h2>
+        <div className="card3">
+            <ul className='list'>
+                <a href=""><li>CSS</li></a>
+                <a href=""><li>UI Elements</li></a>
+                <a href=""><li>Icons</li></a>
+                <a href=""><li>Animation</li></a>
+                <a href=""><li>Color</li></a>
+                <a href=""><li>Icons</li></a>
+                <a href=""><li>Fonts</li></a>
+                <a href=""><li>3D Parallax</li></a>
+                <a href=""><li>Design</li></a>
+                <a href=""><li>API</li></a>
+            </ul>
+        </div>
+
+        <div className="card4">
         </div>
         </div>
     );

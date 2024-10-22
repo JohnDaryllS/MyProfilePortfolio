@@ -292,3 +292,38 @@ ul, li .card {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+.card3 {
+  width: 1230px;
+  height: 100px;
+  border-radius: 2em;
+  border: 5px solid #FFD700;
+  padding: 10px;
+  margin: 140px 50px 0 20px;
+  background-color: #191919d3;
+  box-shadow: 5px 5px 30px #ffd900af,
+              -5px -5px 30px #ffd900af;
+  float: right;
+}
+
+.card3 .list li {
+  float: left;
+  padding: 15px 28px;
+  border-right: solid 1px #ffd700;
+  color: white;
+}
+
+.card4 {
+  width: 1230px;
+  height: 690px;
+  border-radius: 2em;
+  border: 5px solid #FFD700;
+  padding: 10px;
+  margin: 10px 50px 0 20px;
+  background-color: #191919d3;
+  box-shadow: 5px 5px 30px #ffd900af,
+              -5px -5px 30px #ffd900af;
+  float: right;
+  overflow: auto;
+  scrollbar-color: rgba(255, 255, 255, 0.) rgba(255, 255, 255, 0);
+}
