@@ -20,7 +20,7 @@ function Projects () {
             <img src={myprofile} alt="myprofile" />
             <h1>John Daryll Sampilingan</h1>
             <p>FullStack Web Developer</p>
-            <h2>Tech Learnings</h2>
+            <h2>Featured Skills</h2>
         </center>
             <ul>
                 <h3>Front-End &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Version Control</h3>
@@ -85,8 +85,8 @@ function Projects () {
 
         <div className="card2">
             <h2>Projects</h2>
-            <p>I currently have 28 projects but some of them are not a website, for example, C++, VBA, and JAVA. <br /><br />
-            Hover the Image to see my Website project live or you want the source code.</p>
+            <p>I currently have 28 projects but some of them are not a website, for example, C++, VBA, and JAVA.</p> <br />
+            <marquee scrollamount="15" direction="right"><p>Hover the Image to see my Website project live or you want the source code.</p></marquee>
         <div className="cardproject">
             <img src={Crazyone} alt="Card Image 1"/>
             <div className="buttons">

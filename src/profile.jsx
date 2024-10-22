@@ -77,7 +77,7 @@ function Profile () {
             <p>I'm John Daryll R. Sampilingan, a passionate FullStack web developer and 4th year student at Holy Child College of Davao. While I don't have formal work experience yet, my dedication to learning and improving my skills ensures I can deliver results better than anyone. I'm constantly honing my expertise in both front-end and back-end technologies, and I'm excited to apply my knowledge to real-world projects.</p>
 
             <div className='skills'>
-            <h3>Technical Skills</h3>
+            <h3>Featured Skills</h3>
             <ul>
                 <li>MS Office</li>
                 <li>Video Editing</li>
