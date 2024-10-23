@@ -371,3 +371,77 @@ ul, li .card {
 .card4 .resources h3 {
   padding-top: 20px;
 }
+
+.cardcert {
+  width: 1230px;
+  height: 800px;
+  border-radius: 2em;
+  border: 5px solid #FFD700;
+  padding: 50px;
+  margin: 140px 50px 0 20px;
+  background-color: #191919d3;
+  box-shadow: 5px 5px 30px #ffd900af,
+              -5px -5px 30px #ffd900af;
+  float: right;
+  overflow: auto;
+  scrollbar-color: rgba(255, 255, 255, 0.) rgba(255, 255, 255, 0);
+}
+
+.cardcert h2 {
+  margin-top: 30px;
+  color: #fce803;
+  font-size: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.ncs {
+  background-color: #191919d3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1090px;
+  height: 100px;
+  padding: 0 20px;
+  border-radius: 20px;
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+
+.ncs:hover {
+  background-color: #dfe21d9d;
+  transform: scale(1.1);
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardcert h3 {
+  color: white;
+  font-size: 20px;
+  margin: 0;
+}
+
+.cardcert p {
+  color: white;
+  font-size: 15px;
+  margin: 5px 0 0 0;
+}
+
+.cardcert button {
+  height: 40px;
+  width: 150px;
+  background-color: #1db0d4;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  transition: transform 0.3s ease;
+  color: white;
+}
+
+.cardcert button:hover {
+  background-color: #1dafd4c0 ;
+  transform: scale(1.1);
+}

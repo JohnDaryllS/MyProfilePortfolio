@@ -1,4 +1,13 @@
 import myprofile from './assets/myprofile.jpg'
+import Animation from './assets/Certificate - Animation.png'
+import one from './assets/UC-9d38b366-d1cc-4d90-9760-6631242335fd.jpg'
+import two from './assets/UC-10f504b0-bf28-4150-8a38-c7760c04df94.jpg'
+import three from './assets/UC-92930849-e542-4a97-a70b-7232d4a2a80f.jpg'
+import four from './assets/UC-a91ccc64-9e28-41f3-a08b-23124f2dda05.jpg'
+import five from './assets/UC-ed561d9c-9d1e-4a3e-8a11-447875193424.jpg'
+import six from './assets/UC-f7190a0b-ee3e-47fd-a06e-f162592993b1.jpg'
+import free from './assets/FreeCodeCamp Certificate.png'
+import code from './assets/JavascriptFreecodecampCertificate.png'
 
 function Achievements () {
     return(
@@ -71,8 +80,96 @@ function Achievements () {
 
         </div>
 
-        <div className="card2">
-            <h2>Achievements</h2>
+        <div className="cardcert">
+            <h2>National Certificates</h2>
+            <div className='ncs'>
+                <div className='text-container'>
+                    <h3>Computer System Servicing - National Certificate II</h3>
+                    <p>Issued on : March 26, 2019 - Valid Until: March 25, 2024</p>
+                </div>
+                <a href=""><button>View Certificate</button></a>
+            </div>
+            <div className='ncs'>
+                <div className='text-container'>
+                    <h3>Visual Graphic Design - National Certificate III</h3>
+                    <p>Issued on : December 9, 2022 - Valid Until: December 8, 2027</p>
+                </div>
+                <a href=""><button>View Certificate</button></a>
+            </div>
+            <div className='ncs'>
+                <div className='text-container'>
+                    <h3>Web Development - National Certificate III</h3>
+                    <p>Issued on : March 13, 2023 - Valid Until: March 12, 2028</p>
+                </div>
+                <a href=""><button>View Certificate</button></a>
+            </div>
+            <div className='ncs'>
+                <div className='text-container'>
+                    <h3>Animation - National Certificate II</h3>
+                    <p>Issued on : October 28, 2023 - Valid Until: October 27, 2028</p>
+                </div>
+                <a href={Animation} target='_blank'><button>View Certificate</button></a>
+            </div>
+
+            <h2>Udemy Cetificates</h2>
+            <div className='ncs'>
+                <div className='text-container'>
+                    <h3>Learn Javascript - For Begginers</h3>
+                    <p>Date: August 18, 2024 - Length: 1.5 total hours</p>
+                </div>
+                <a href={one} target='_blank'><button>View Certificate</button></a>
+            </div>
+            <div className='ncs'>
+                <div className='text-container'>
+                    <h3>Javascript For Beginners Complete Course</h3>
+                    <p>Date: August 15, 2024 - Length: 2 total hours</p>
+                </div>
+                <a href={two} target='_blank'><button>View Certificate</button></a>
+            </div>
+            <div className='ncs'>
+                <div className='text-container'>
+                    <h3>The Complete Javascript Course: From Zero to Expert</h3>
+                    <p>Date: August 18, 2024 - Length: 3.5 total hours</p>
+                </div>
+                <a href={three} target='_blank'><button>View Certificate</button></a>
+            </div>
+            <div className='ncs'>
+                <div className='text-container'>
+                    <h3>Javascript for Beginners: The Complete Course for Beginners</h3>
+                    <p>Date: August 15, 2024 - Length: 4.5 total hours</p>
+                </div>
+                <a href={four} target='_blank'><button>View Certificate</button></a>
+            </div>
+            <div className='ncs'>
+                <div className='text-container'>
+                    <h3>JavaScript for Beginners - The Complete Introduction to JS</h3>
+                    <p>Date: August 18, 2024 - Length: 4 total hours</p>
+                </div>
+                <a href={five} target='_blank'><button>View Certificate</button></a>
+            </div>
+            <div className='ncs'>
+                <div className='text-container'>
+                    <h3>The Complete 2024 Web Development Bootcamp</h3>
+                    <p>Date: October 18, 2024 - Length: 61.5 total hours</p>
+                </div>
+                <a href={six} target='_blank'><button>View Certificate</button></a>
+            </div>
+
+            <h2>FreeCodeCamp Cetificates</h2>
+            <div className='ncs'>
+                <div className='text-container'>
+                    <h3>Responsive Web Design</h3>
+                    <p>Developer Certification on September 27, 2024</p>
+                </div>
+                <a href={free} target='_blank'><button>View Certificate</button></a>
+            </div>
+            <div className='ncs'>
+                <div className='text-container'>
+                    <h3>JavaSript Algorithms and Data Structures</h3>
+                    <p>Developer Certification on September 29, 2024</p>
+                </div>
+                <a href={code} target='_blank'><button>View Certificate</button></a>
+            </div>
         </div>
         </div>
     );
