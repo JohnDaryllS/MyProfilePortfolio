@@ -8,7 +8,7 @@ function Contact () {
             <img src={myprofile} alt="myprofile" />
             <h1>John Daryll Sampilingan</h1>
             <p>FullStack Web Developer</p>
-            <h2>Featured Skills</h2>
+            <h2>Web Development Skills</h2>
         </center>
             <ul>
                 <h3>Front-End &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Version Control</h3>
