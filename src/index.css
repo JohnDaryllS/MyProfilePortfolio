@@ -445,3 +445,63 @@ ul, li .card {
   background-color: #1dafd4c0 ;
   transform: scale(1.1);
 }
+
+/* Styles for the contact form container */
+.contact {
+  width: 1230px;
+  height: 800px;
+  border-radius: 2em;
+  border: 5px solid #FFD700;
+  padding: 100px;
+  margin: 140px 50px 0 20px;
+  background-color: #191919d3;
+  box-shadow: 5px 5px 30px #ffd900af,
+              -5px -5px 30px #ffd900af;
+  float: right;
+  overflow: auto;
+  scrollbar-color: rgba(255, 255, 255, 0.1) rgba(255, 255, 255, 0);
+}
+
+/* Style the form labels and input fields */
+form label {
+  font-size: 18px;
+  color: #fff;
+}
+
+form input[type="text"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  font-size: 16px;
+  background-color: #f1f1f1;
+}
+
+form textarea {
+  resize: none;
+}
+
+form button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #FFD700;
+  color: #000;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #e0c700;
+}
+
+/* Center the contact title */
+.contact h2 {
+  font-size: 40px;
+  text-align: center;
+  color: #FFD700;
+  padding-bottom: 50px;
+}

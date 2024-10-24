@@ -71,11 +71,23 @@ function Contact () {
 
         </div>
 
-        <div className="card2">
-            <h2>Contact</h2>
-        </div>
+        <div className="contact">
+                <h2>Contact Me</h2>
+                <form>
+                    <label htmlFor="full-name">Full Name:</label><br />
+                    <input type="text" id="full-name" name="full-name" placeholder='Your Full Name' required /><br /><br />
+
+                    <label htmlFor="email">Email:</label><br />
+                    <input type="text" id="email" name="email" placeholder='Your Email Address' required /><br /><br />
+
+                    <label htmlFor="message">Message:</label><br />
+                    <textarea id="message" name="message" rows="5" placeholder='Type your message here' required></textarea><br /><br />
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
         </div>
     );
-
 }
-export default Contact
+
+export default Contact;
