@@ -465,10 +465,10 @@ ul, li .card {
 /* Style the form labels and input fields */
 form label {
   font-size: 18px;
-  color: #fff;
+  color: #FFD700;
 }
 
-form input[type="text"],
+form input[type="text"],input[type="email"],
 form textarea {
   width: 100%;
   padding: 10px;
@@ -477,6 +477,10 @@ form textarea {
   margin-top: 10px;
   font-size: 16px;
   background-color: #f1f1f1;
+}
+
+form #message {
+  height: 200px;
 }
 
 form textarea {
