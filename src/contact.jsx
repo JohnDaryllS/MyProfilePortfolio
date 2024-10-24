@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
+import { Alert, AlertTitle } from '@mui/material';
 import myprofile from './assets/myprofile.jpg'
 
 
@@ -10,6 +11,9 @@ function Contact () {
         email: '',
         message: ''
     });
+    const [showAlert, setShowAlert] = useState(false);
+    const [alertMessage, setAlertMessage] = useState('');
+    const [alertSeverity, setAlertSeverity] = useState('success');
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -23,14 +27,18 @@ function Contact () {
         e.preventDefault();
 
         emailjs.send('service_ttool37', 'template_07hy0ip', formData, '9fRLvFYKwcrxCeDtG')
-        .then((response) => {
-            console.log('SUCCESS!', response.status, response.text);
-            alert('Your message has been sent successfully!');
-            setFormData({ name: '', email: '', message: '' });
-        }, (error) => {
-            console.log('FAILED...', error);
-            alert('Failed to send your message. Please try again later.');
-        });
+            .then((response) => {
+                console.log('SUCCESS!', response.status, response.text);
+                setAlertMessage('Your message has been sent successfully!');
+                setAlertSeverity('success');
+                setShowAlert(true);
+                setFormData({ name: '', email: '', message: '' });
+            }, (error) => {
+                console.log('FAILED...', error);
+                setAlertMessage('Failed to send your message. Please try again later.');
+                setAlertSeverity('error');
+                setShowAlert(true);
+            });
     };
 
     return(
@@ -104,6 +112,12 @@ function Contact () {
         </div>
 
         <div className="contact">
+        {showAlert && (
+                <Alert severity={alertSeverity} onClose={() => setShowAlert(false)} style={{ marginTop: '5px' }}>
+                    <AlertTitle>{alertSeverity === 'success' ? 'Success' : 'Error'}</AlertTitle>
+                    {alertMessage}
+                </Alert>
+            )}
                 <h2>Contact</h2>
                 <form id="contact-form" onSubmit={handleSubmit}>
                     <label htmlFor="name">Full Name:</label><br />

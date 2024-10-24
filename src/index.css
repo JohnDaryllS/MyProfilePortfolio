@@ -452,7 +452,7 @@ ul, li .card {
   height: 800px;
   border-radius: 2em;
   border: 5px solid #FFD700;
-  padding: 100px;
+  padding: 10px 100px;
   margin: 140px 50px 0 20px;
   background-color: #191919d3;
   box-shadow: 5px 5px 30px #ffd900af,
@@ -465,7 +465,7 @@ ul, li .card {
 /* Style the form labels and input fields */
 form label {
   font-size: 18px;
-  color: #FFD700;
+  color: #fff;
 }
 
 form input[type="text"],input[type="email"],
@@ -507,5 +507,5 @@ form button:hover {
   font-size: 40px;
   text-align: center;
   color: #FFD700;
-  padding-bottom: 50px;
+  padding: 50px 0;
 }
