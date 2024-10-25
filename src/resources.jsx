@@ -15,6 +15,11 @@ import hunt from './assets/faviconV14.png'
 import draw from './assets/faviconV15.png'
 import wave from './assets/faviconV16.png'
 import atopos from './assets/faviconV17.png'
+import tabler from './assets/faviconV18.png'
+import animate from './assets/faviconV19.png'
+import magic from './assets/faviconV20.png'
+import softr from './assets/faviconV21.png'
+import crate from './assets/faviconV22.png'
 
 
 function Resources () {
@@ -113,6 +118,38 @@ function Resources () {
                             <img src={atopos} alt="" />
                             <h3>Atropos JS</h3>
                         </div></a>
+                        <a href="https://tabler.io/icons" target='_blank'><div className='resources'>
+                            <img src={tabler} alt="" />
+                            <h3>Tabler Icons</h3>
+                        </div></a>
+                        <a href="https://animate.style/" target='_blank'><div className='resources'>
+                            <img src={animate} alt="" />
+                            <h3>Animate.Style</h3>
+                        </div></a>
+                        <a href="https://ianlunn.github.io/Hover/" target='_blank'><div className='resources'>
+                            <img src="" alt="" />
+                            <h3>Hover.css</h3>
+                        </div></a>
+                        <a href="https://www.minimamente.com/project/magic/" target='_blank'><div className='resources'>
+                            <img src={magic} alt="" />
+                            <h3>Magic Animation CSS3</h3>
+                        </div></a>
+                        <a href="https://www.softr.io/tools/" target='_blank'><div className='resources'>
+                            <img src={softr} alt="" />
+                            <h3>Softr</h3>
+                        </div></a>
+                        <a href="https://footagecrate.com/" target='_blank'><div className='resources'>
+                            <img src={crate} alt="" />
+                            <h3>FootageCrate</h3>
+                        </div></a>
+                        <a href="" target='_blank'><div className='resources'>
+                            <img src={animate} alt="" />
+                            <h3>Animate.Style</h3>
+                        </div></a>
+                        <a href="" target='_blank'><div className='resources'>
+                            <img src={animate} alt="" />
+                            <h3>Animate.Style</h3>
+                        </div></a>
                     </div>
                 )}
                 {selectedSection === 'CSS' && (
@@ -141,6 +178,14 @@ function Resources () {
                             <img src={smooth} alt="" />
                             <h3>Smooth Shadow</h3>
                         </div></a>
+                        <a href="https://ianlunn.github.io/Hover/" target='_blank'><div className='resources'>
+                            <img src="" alt="" />
+                            <h3>Hover.css</h3>
+                        </div></a>
+                        <a href="https://www.minimamente.com/project/magic/" target='_blank'><div className='resources'>
+                            <img src={magic} alt="" />
+                            <h3>Magic Animation CSS3</h3>
+                        </div></a>
                     </div>
                 )}
                 {selectedSection === 'Icons' && (
@@ -153,6 +198,10 @@ function Resources () {
                             <img src={awesome} alt="" />
                             <h3>Font Awesome</h3>
                         </div></a>
+                        <a href="https://tabler.io/icons" target='_blank'><div className='resources'>
+                            <img src={tabler} alt="" />
+                            <h3>Tabler Icons</h3>
+                        </div></a>
                     </div>
                 )}
                 {selectedSection === 'Animation' && (
@@ -164,6 +213,10 @@ function Resources () {
                         <a href="https://michalsnik.github.io/aos/" target='_blank'><div className='resources'>
                             <img src="" alt="" />
                             <h3>Animate on Scroll Library</h3>
+                        </div></a>
+                        <a href="https://animate.style/" target='_blank'><div className='resources'>
+                            <img src={animate} alt="" />
+                            <h3>Animate.Style</h3>
                         </div></a>
                     </div>
                 )}
@@ -208,6 +261,10 @@ function Resources () {
                         <a href="https://getwaves.io/" target='_blank'><div className='resources'>
                             <img src={wave} alt="" />
                             <h3>Get Waves</h3>
+                        </div></a>
+                        <a href="https://www.softr.io/tools/" target='_blank'><div className='resources'>
+                            <img src={softr} alt="" />
+                            <h3>Softr</h3>
                         </div></a>
                     </div>
                 )}
