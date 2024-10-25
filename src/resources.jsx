@@ -20,6 +20,8 @@ import animate from './assets/faviconV19.png'
 import magic from './assets/faviconV20.png'
 import softr from './assets/faviconV21.png'
 import crate from './assets/faviconV22.png'
+import hue from './assets/faviconV23.png'
+import story from './assets/faviconV24.png'
 
 
 function Resources () {
@@ -142,13 +144,13 @@ function Resources () {
                             <img src={crate} alt="" />
                             <h3>FootageCrate</h3>
                         </div></a>
-                        <a href="" target='_blank'><div className='resources'>
-                            <img src={animate} alt="" />
-                            <h3>Animate.Style</h3>
+                        <a href="https://www.happyhues.co/" target='_blank'><div className='resources'>
+                            <img src={hue} alt="" />
+                            <h3>Happy Hues</h3>
                         </div></a>
-                        <a href="" target='_blank'><div className='resources'>
-                            <img src={animate} alt="" />
-                            <h3>Animate.Style</h3>
+                        <a href="https://storyset.com/" target='_blank'><div className='resources'>
+                            <img src={story} alt="" />
+                            <h3>Story Set</h3>
                         </div></a>
                     </div>
                 )}
@@ -230,6 +232,10 @@ function Resources () {
                             <img src={hunt} alt="" />
                             <h3>Color Hunt</h3>
                         </div></a>
+                        <a href="https://www.happyhues.co/" target='_blank'><div className='resources'>
+                            <img src={hue} alt="" />
+                            <h3>Happy Hues</h3>
+                        </div></a>
                     </div>
                 )}
                 {selectedSection === 'Fonts' && (
@@ -265,6 +271,14 @@ function Resources () {
                         <a href="https://www.softr.io/tools/" target='_blank'><div className='resources'>
                             <img src={softr} alt="" />
                             <h3>Softr</h3>
+                        </div></a>
+                        <a href="https://footagecrate.com/" target='_blank'><div className='resources'>
+                            <img src={crate} alt="" />
+                            <h3>FootageCrate</h3>
+                        </div></a>
+                        <a href="https://storyset.com/" target='_blank'><div className='resources'>
+                            <img src={story} alt="" />
+                            <h3>Story Set</h3>
                         </div></a>
                     </div>
                 )}
