@@ -22,6 +22,14 @@ import softr from './assets/faviconV21.png'
 import crate from './assets/faviconV22.png'
 import hue from './assets/faviconV23.png'
 import story from './assets/faviconV24.png'
+import spline from './assets/faviconV25.png'
+import ngrok from './assets/faviconV26.png'
+import tricks from './assets/faviconV27.png'
+import grid from './assets/faviconV28.png'
+import gen from './assets/faviconV29.png'
+import jees from './assets/faviconsV30.png'
+import gsap from './assets/faviconsV31.png'
+import reveal from './assets/faviconV32.png'
 
 
 function Resources () {
@@ -152,6 +160,42 @@ function Resources () {
                             <img src={story} alt="" />
                             <h3>Story Set</h3>
                         </div></a>
+                        <a href="https://app.spline.design/home" target='_blank'><div className='resources'>
+                            <img src={spline} alt="" />
+                            <h3>Spline</h3>
+                        </div></a>
+                        <a href="https://ngrok.com/" target='_blank'><div className='resources'>
+                            <img src={ngrok} alt="" />
+                            <h3>Ngrok</h3>
+                        </div></a>
+                        <a href="https://css-tricks.com/" target='_blank'><div className='resources'>
+                            <img src={tricks} alt="" />
+                            <h3>CSS Tricks</h3>
+                        </div></a>
+                        <a href="https://grid.layoutit.com/" target='_blank'><div className='resources'>
+                            <img src={grid} alt="" />
+                            <h3>Grid LayOut</h3>
+                        </div></a>
+                        <a href="https://cssgridgenerator.io/" target='_blank'><div className='resources'>
+                            <img src={gen} alt="" />
+                            <h3>CSS Grid Generator</h3>
+                        </div></a>
+                        <a href="https://animejs.com/" target='_blank'><div className='resources'>
+                            <img src={jees} alt="" />
+                            <h3>Anime.js</h3>
+                        </div></a>
+                        <a href="https://gsap.com/scroll/" target='_blank'><div className='resources'>
+                            <img src={gsap} alt="" />
+                            <h3>Scroll || GSAP</h3>
+                        </div></a>
+                        <a href="https://scrollrevealjs.org/" target='_blank'><div className='resources'>
+                            <img src={reveal} alt="" />
+                            <h3>ScrollReveal</h3>
+                        </div></a>
+                        <a href="https://acchou.github.io/html-css-cheat-sheet/animation.html#animation" target='_blank'><div className='resources'>
+                            <img src="" alt="" />
+                            <h3>Animation and Transition</h3>
+                        </div></a>
                     </div>
                 )}
                 {selectedSection === 'CSS' && (
@@ -188,6 +232,26 @@ function Resources () {
                             <img src={magic} alt="" />
                             <h3>Magic Animation CSS3</h3>
                         </div></a>
+                        <a href="https://css-tricks.com/" target='_blank'><div className='resources'>
+                            <img src={tricks} alt="" />
+                            <h3>CSS Tricks</h3>
+                        </div></a>
+                        <a href="https://grid.layoutit.com/" target='_blank'><div className='resources'>
+                            <img src={grid} alt="" />
+                            <h3>Grid LayOut</h3>
+                        </div></a>
+                        <a href="https://cssgridgenerator.io/" target='_blank'><div className='resources'>
+                            <img src={gen} alt="" />
+                            <h3>CSS Grid Generator</h3>
+                        </div></a>
+                        <a href="https://gsap.com/scroll/" target='_blank'><div className='resources'>
+                            <img src={gsap} alt="" />
+                            <h3>Scroll || GSAP</h3>
+                        </div></a>
+                        <a href="https://scrollrevealjs.org/" target='_blank'><div className='resources'>
+                            <img src={reveal} alt="" />
+                            <h3>ScrollReveal</h3>
+                        </div></a>
                     </div>
                 )}
                 {selectedSection === 'Icons' && (
@@ -219,6 +283,14 @@ function Resources () {
                         <a href="https://animate.style/" target='_blank'><div className='resources'>
                             <img src={animate} alt="" />
                             <h3>Animate.Style</h3>
+                        </div></a>
+                        <a href="https://animejs.com/" target='_blank'><div className='resources'>
+                            <img src={jees} alt="" />
+                            <h3>Anime.js</h3>
+                        </div></a>
+                        <a href="https://acchou.github.io/html-css-cheat-sheet/animation.html#animation" target='_blank'><div className='resources'>
+                            <img src="" alt="" />
+                            <h3>Animation and Transition</h3>
                         </div></a>
                     </div>
                 )}
@@ -256,6 +328,10 @@ function Resources () {
                             <img src={atopos} alt="" />
                             <h3>Atropos JS</h3>
                         </div></a>
+                        <a href="https://app.spline.design/home" target='_blank'><div className='resources'>
+                            <img src={spline} alt="" />
+                            <h3>Spline</h3>
+                        </div></a>
                     </div>
                 )}
                 {selectedSection === 'Design' && (
@@ -280,12 +356,18 @@ function Resources () {
                             <img src={story} alt="" />
                             <h3>Story Set</h3>
                         </div></a>
+                        <a href="https://app.spline.design/home" target='_blank'><div className='resources'>
+                            <img src={spline} alt="" />
+                            <h3>Spline</h3>
+                        </div></a>
                     </div>
                 )}
                 {selectedSection === 'API' && (
                     <div>
-                        <h3>API Resources</h3>
-                        <p>Understand how to work with APIs...</p>
+                        <a href="https://ngrok.com/" target='_blank'><div className='resources'>
+                            <img src={ngrok} alt="" />
+                            <h3>Ngrok</h3>
+                        </div></a>
                     </div>
                 )}
                 {selectedSection === 'Others' && (
