@@ -51,10 +51,11 @@ nav.sticky .logo a{
   font-size: 18px;
   font-weight: 500;
   padding: 10px 4px;
-  transition: all 0.3s ease;
+  transition: all 0.1s ease;
 }
  .nav-links li a:hover{
    color: #ffd900b0;
+   border-bottom: 3px solid #FFD700;
  }
  nav.sticky .nav-links li a{
    color: #fff;
@@ -326,6 +327,7 @@ ul, li .card {
 .card3 .list li:hover {
   border-radius: 10px;
   background-color: #fce703bb;
+  border-left: 10px solid #fce703;
 }
 
 
