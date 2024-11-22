@@ -513,57 +513,10 @@ form button:hover {
 }
 
 @media (max-width: 1200px) {
-  .nav-content {
-    flex-direction: column;
-    align-items: center;
-  }
-  .nav-content .nav-links {
-    flex-direction: column;
-    margin-top: 10px;
-  }
-  .card, .card2, .card3, .card4, .cardcert, .contact {
-    margin: 20px 0;
-  }
-  .cardproject {
-    width: 100%;
-  }
 }
 
 @media (max-width: 768px) {
-  nav {
-    padding: 10px;
-  }
-  nav .nav-content {
-    flex-direction: column;
-  }
-  nav .logo a {
-    font-size: 1.5rem;
-  }
-  .card, .card2, .card3, .card4, .cardcert, .contact {
-    padding: 20px;
-  }
-  .card img, .cardproject img {
-    width: 150px;
-    height: 150px;
-  }
 }
 
 @media (max-width: 480px) {
-  nav .logo a {
-    font-size: 1.25rem;
-  }
-  .nav-links li {
-    margin: 5px;
-  }
-  .card h1, .card2 h2, .contact h2 {
-    font-size: 1.25rem;
-  }
-  .card img, .cardproject img {
-    width: 100px;
-    height: 100px;
-  }
-  .btn-btn {
-    font-size: 0.75rem;
-    padding: 0.5rem;
-  }
 }
