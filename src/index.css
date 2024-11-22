@@ -504,7 +504,6 @@ form button:hover {
   background-color: #e0c700;
 }
 
-/* Center the contact title */
 .contact h2 {
   font-size: 40px;
   text-align: center;
@@ -512,11 +511,17 @@ form button:hover {
   padding: 50px 0;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1201px) {
 }
 
-@media (max-width: 768px) {
+@media (min-width: 1025px) and (max-width: 1200px) {
 }
 
-@media (max-width: 480px) {
+@media (min-width: 1024px) and (max-width: 769px) {
+}
+
+@media (min-width: 768px) and (max-width: 481px) {
+}
+
+@media (min-width: 480px) and (max-width: 320px) {
 }
