@@ -512,11 +512,11 @@ form button:hover {
 @media (min-width: 1025px) and (max-width: 1200px) {
 }
 
-@media (min-width: 1024px) and (max-width: 769px) {
+@media (min-width: 769px) and (max-width: 1024px) {
 }
 
-@media (min-width: 768px) and (max-width: 481px) {
-}
+@media (min-width: 481px) and (max-width: 768px) {
+} 
 
 @media (max-width: 480px) {
   /* RESPONSIVE NAVIGATION*/
@@ -527,8 +527,9 @@ form button:hover {
 
    .nav-links li a{
     font-size: 10px;
-    font-weight: 1000;
-    padding: 3px;
+    font-weight: 900;
+    padding: 10px 1px;
+    float: left;
   }
 
   /* RESPONSIVE PROFILE*/
@@ -550,6 +551,7 @@ form button:hover {
     width: 90%;
     height: 800px;
     margin: 30px 20px 30px 20px;
+    padding: 8px;
   }
   
   /* RESPONSIVE ACHIEVEMENT*/
@@ -586,4 +588,30 @@ form button:hover {
     width: 80px;
   }
   
+  /* RESPONSIVE RESOURCES*/
+  .card3 {
+    width: 150px;
+    padding: 5px;
+    margin: 50px 10px 0 10px;
+  }
+
+  .card4 {
+    width: 60%;
+    padding: 10px;
+    margin: 50px 10px 30px 10px;
+    float: left;
+  }
+  
+  .card4 .resources {
+    width: 210px;
+  }
+  
+
+  /* RESPONSIVE RESOURCES*/
+  
+  .contact {
+    width: 90%;
+    padding: 10px 30px;
+    margin: 30px 30px 50px 30px;
+  }
 }
