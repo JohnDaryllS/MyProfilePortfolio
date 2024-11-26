@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Pdefauts from './assets/favicon1.png'
 import box from './assets/faviconV2.png'
 import eyecon from './assets/faviconV3.png'
 import fonts from './assets/faviconV4.png'
@@ -121,7 +122,7 @@ function Resources () {
                             <h3>Get Waves</h3>
                         </div></a>
                         <a href="https://michalsnik.github.io/aos/" target='_blank'><div className='resources'>
-                            <img src="" alt="" />
+                            <img src={Pdefauts} alt="" />
                             <h3>Animate on Scroll Library</h3>
                         </div></a>
                         <a href="https://atroposjs.com/" target='_blank'><div className='resources'>
@@ -137,7 +138,7 @@ function Resources () {
                             <h3>Animate.Style</h3>
                         </div></a>
                         <a href="https://ianlunn.github.io/Hover/" target='_blank'><div className='resources'>
-                            <img src="" alt="" />
+                            <img src={Pdefauts} alt="" />
                             <h3>Hover.css</h3>
                         </div></a>
                         <a href="https://www.minimamente.com/project/magic/" target='_blank'><div className='resources'>
@@ -193,7 +194,7 @@ function Resources () {
                             <h3>ScrollReveal</h3>
                         </div></a>
                         <a href="https://acchou.github.io/html-css-cheat-sheet/animation.html#animation" target='_blank'><div className='resources'>
-                            <img src="" alt="" />
+                            <img src={Pdefauts} alt="" />
                             <h3>Animation and Transition</h3>
                         </div></a>
                     </div>
