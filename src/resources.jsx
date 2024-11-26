@@ -226,7 +226,7 @@ function Resources () {
                             <h3>Smooth Shadow</h3>
                         </div></a>
                         <a href="https://ianlunn.github.io/Hover/" target='_blank'><div className='resources'>
-                            <img src="" alt="" />
+                            <img src={Pdefauts} alt="" />
                             <h3>Hover.css</h3>
                         </div></a>
                         <a href="https://www.minimamente.com/project/magic/" target='_blank'><div className='resources'>
@@ -278,7 +278,7 @@ function Resources () {
                             <h3>Animated Backgrounds</h3>
                         </div></a>
                         <a href="https://michalsnik.github.io/aos/" target='_blank'><div className='resources'>
-                            <img src="" alt="" />
+                            <img src={Pdefauts} alt="" />
                             <h3>Animate on Scroll Library</h3>
                         </div></a>
                         <a href="https://animate.style/" target='_blank'><div className='resources'>
@@ -290,7 +290,7 @@ function Resources () {
                             <h3>Anime.js</h3>
                         </div></a>
                         <a href="https://acchou.github.io/html-css-cheat-sheet/animation.html#animation" target='_blank'><div className='resources'>
-                            <img src="" alt="" />
+                            <img src={Pdefauts} alt="" />
                             <h3>Animation and Transition</h3>
                         </div></a>
                     </div>

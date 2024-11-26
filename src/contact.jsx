@@ -128,7 +128,7 @@ function Contact () {
                         name="name" 
                         value={formData.name}
                         onChange={handleChange} 
-                        placeholder='Your Full Name'
+                        placeholder='Enter your Full Name'
                         required 
                     /><br /><br />
 
@@ -139,7 +139,7 @@ function Contact () {
                         name="email" 
                         value={formData.email}
                         onChange={handleChange} 
-                        placeholder='Your Email'
+                        placeholder='Enter your Email Address'
                         required 
                     /><br /><br />
 
@@ -150,7 +150,7 @@ function Contact () {
                         rows="5" 
                         value={formData.message}
                         onChange={handleChange} 
-                        placeholder='Type your Message here'
+                        placeholder='Enter your question, feedback, or message...'
                         required 
                     ></textarea><br /><br />
 
