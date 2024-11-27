@@ -42,7 +42,23 @@ import typing from './assets/faviconV40.png'
 import onlinegdb from './assets/faviconV41.png'
 import visualgo from './assets/faviconV42.png'
 import utility from './assets/faviconV43.png'
-
+import stack from './assets/faviconV44.png'
+import yarn from './assets/faviconV45.png'
+import jitter from './assets/faviconV46.png'
+import simple from './assets/faviconV47.png'
+import leet from './assets/faviconV48.png'
+import edx from './assets/faviconV49.png'
+import sweet from './assets/faviconV50.png'
+import luma from './assets/faviconV51.png'
+import cut from './assets/faviconV52.png'
+import hosting from './assets/faviconV53.png'
+import graphic from './assets/faviconV54.png'
+import creative from './assets/faviconV55.png'
+import geniusdev from './assets/faviconV56.png'
+import akoya from './assets/faviconV57.png'
+import project from './assets/faviconV58.png'
+import driver from './assets/faviconV59.png'
+import over from './assets/faviconV60.png'
 
 
 function Resources () {
@@ -253,6 +269,82 @@ function Resources () {
                             <img src={utility} alt="" />
                             <h3>Myinstants</h3>
                         </div></a>
+                        <a href="https://stackoverflow.com/" target='_blank'><div className='resources'>
+                            <img src={stack} alt="" />
+                            <h3>Stack Overflow</h3>
+                        </div></a>
+                        <a href="https://reqres.in/" target='_blank'><div className='resources'>
+                            <img src={Pdefauts} alt="" />
+                            <h3>Reqres</h3>
+                        </div></a>
+                        <a href="https://yarn.co/" target='_blank'><div className='resources'>
+                            <img src={yarn} alt="" />
+                            <h3>Yarn</h3>
+                        </div></a>
+                        <a href="https://jitter.video/?noredir=1" target='_blank'><div className='resources'>
+                            <img src={jitter} alt="" />
+                            <h3>Jitter</h3>
+                        </div></a>
+                        <a href="https://simplepdf.com/" target='_blank'><div className='resources'>
+                            <img src={simple} alt="" />
+                            <h3>SimplePDF</h3>
+                        </div></a>
+                        <a href="https://leetcode.com/" target='_blank'><div className='resources'>
+                            <img src={leet} alt="" />
+                            <h3>LeetCode</h3>
+                        </div></a>
+                        <a href="https://learning.edx.org/" target='_blank'><div className='resources'>
+                            <img src={edx} alt="" />
+                            <h3>Course | edx</h3>
+                        </div></a>
+                        <a href="https://sweetalert2.github.io/#usage" target='_blank'><div className='resources'>
+                            <img src={sweet} alt="" />
+                            <h3>SweetAlert2</h3>
+                        </div></a>
+                        <a href="https://lumalabs.ai/dream-machine/creations" target='_blank'><div className='resources'>
+                            <img src={luma} alt="" />
+                            <h3>Luma Dream Machine</h3>
+                        </div></a>
+                        <a href="https://www.cutout.pro/passport-photo-maker/upload" target='_blank'><div className='resources'>
+                            <img src={cut} alt="" />
+                            <h3>Cutout.pro</h3>
+                        </div></a>
+                        <a href="https://www.hostinger.ph/" target='_blank'><div className='resources'>
+                            <img src={hosting} alt="" />
+                            <h3>Hostinger</h3>
+                        </div></a>
+                        <a href="https://graphicburger.com/" target='_blank'><div className='resources'>
+                            <img src={graphic} alt="" />
+                            <h3>GraphicBurger</h3>
+                        </div></a>
+                        <a href="https://creativemarket.com/" target='_blank'><div className='resources'>
+                            <img src={creative} alt="" />
+                            <h3>Creative Market</h3>
+                        </div></a>
+                        <a href="http://logobook.com/" target='_blank'><div className='resources'>
+                            <img src={Pdefauts} alt="" />
+                            <h3>LogoBook</h3>
+                        </div></a>
+                        <a href="https://geniusdev.vercel.app/" target='_blank'><div className='resources'>
+                            <img src={geniusdev} alt="" />
+                            <h3>Geniusdev</h3>
+                        </div></a>
+                        <a href="https://akoyamockups.com/" target='_blank'><div className='resources'>
+                            <img src={akoya} alt="" />
+                            <h3>Akoya</h3>
+                        </div></a>
+                        <a href="https://projectworlds.in/" target='_blank'><div className='resources'>
+                            <img src={project} alt="" />
+                            <h3>Project Worlds</h3>
+                        </div></a>
+                        <a href="https://driverjs.com/" target='_blank'><div className='resources'>
+                            <img src={driver} alt="" />
+                            <h3>Driver.js</h3>
+                        </div></a>
+                        <a href="https://overapi.com/" target='_blank'><div className='resources'>
+                            <img src={over} alt="" />
+                            <h3>OverAPI</h3>
+                        </div></a>
                     </div>
                 )}
                 {selectedSection === 'CSS' && (
@@ -325,6 +417,10 @@ function Resources () {
                             <img src={tabler} alt="" />
                             <h3>Tabler Icons</h3>
                         </div></a>
+                        <a href="http://logobook.com/" target='_blank'><div className='resources'>
+                            <img src={Pdefauts} alt="" />
+                            <h3>LogoBook</h3>
+                        </div></a>
                     </div>
                 )}
                 {selectedSection === 'Animation' && (
@@ -348,6 +444,10 @@ function Resources () {
                         <a href="https://acchou.github.io/html-css-cheat-sheet/animation.html#animation" target='_blank'><div className='resources'>
                             <img src={Pdefauts} alt="" />
                             <h3>Animation and Transition</h3>
+                        </div></a>
+                        <a href="https://driverjs.com/" target='_blank'><div className='resources'>
+                            <img src={driver} alt="" />
+                            <h3>Driver.js</h3>
                         </div></a>
                     </div>
                 )}
@@ -417,6 +517,18 @@ function Resources () {
                             <img src={spline} alt="" />
                             <h3>Spline</h3>
                         </div></a>
+                        <a href="https://graphicburger.com/" target='_blank'><div className='resources'>
+                            <img src={graphic} alt="" />
+                            <h3>GraphicBurger</h3>
+                        </div></a>
+                        <a href="https://creativemarket.com/" target='_blank'><div className='resources'>
+                            <img src={creative} alt="" />
+                            <h3>Creative Market</h3>
+                        </div></a>
+                        <a href="https://akoyamockups.com/" target='_blank'><div className='resources'>
+                            <img src={akoya} alt="" />
+                            <h3>Akoya</h3>
+                        </div></a>
                     </div>
                 )}
                 {selectedSection === 'API' && (
@@ -424,6 +536,14 @@ function Resources () {
                         <a href="https://ngrok.com/" target='_blank'><div className='resources'>
                             <img src={ngrok} alt="" />
                             <h3>Ngrok</h3>
+                        </div></a>
+                        <a href="https://reqres.in/" target='_blank'><div className='resources'>
+                            <img src={Pdefauts} alt="" />
+                            <h3>Reqres</h3>
+                        </div></a>
+                        <a href="https://overapi.com/" target='_blank'><div className='resources'>
+                            <img src={over} alt="" />
+                            <h3>OverAPI</h3>
                         </div></a>
                     </div>
                 )}
@@ -472,6 +592,54 @@ function Resources () {
                         <a href="https://www.myinstants.com/" target='_blank'><div className='resources'>
                             <img src={utility} alt="" />
                             <h3>Myinstants</h3>
+                        </div></a>
+                        <a href="https://stackoverflow.com/" target='_blank'><div className='resources'>
+                            <img src={stack} alt="" />
+                            <h3>Stack Overflow</h3>
+                        </div></a>
+                        <a href="https://yarn.co/" target='_blank'><div className='resources'>
+                            <img src={yarn} alt="" />
+                            <h3>Yarn</h3>
+                        </div></a>
+                        <a href="https://jitter.video/?noredir=1" target='_blank'><div className='resources'>
+                            <img src={jitter} alt="" />
+                            <h3>Jitter</h3>
+                        </div></a>
+                        <a href="https://simplepdf.com/" target='_blank'><div className='resources'>
+                            <img src={simple} alt="" />
+                            <h3>SimplePDF</h3>
+                        </div></a>
+                        <a href="https://leetcode.com/" target='_blank'><div className='resources'>
+                            <img src={leet} alt="" />
+                            <h3>LeetCode</h3>
+                        </div></a>
+                        <a href="https://learning.edx.org/" target='_blank'><div className='resources'>
+                            <img src={edx} alt="" />
+                            <h3>Course | edx</h3>
+                        </div></a>
+                        <a href="https://sweetalert2.github.io/#usage" target='_blank'><div className='resources'>
+                            <img src={sweet} alt="" />
+                            <h3>SweetAlert2</h3>
+                        </div></a>
+                        <a href="https://lumalabs.ai/dream-machine/creations" target='_blank'><div className='resources'>
+                            <img src={luma} alt="" />
+                            <h3>Luma Dream Machine</h3>
+                        </div></a>
+                        <a href="https://www.cutout.pro/passport-photo-maker/upload" target='_blank'><div className='resources'>
+                            <img src={cut} alt="" />
+                            <h3>Cutout.pro</h3>
+                        </div></a>
+                        <a href="https://www.hostinger.ph/" target='_blank'><div className='resources'>
+                            <img src={hosting} alt="" />
+                            <h3>Hostinger</h3>
+                        </div></a>
+                        <a href="https://geniusdev.vercel.app/" target='_blank'><div className='resources'>
+                            <img src={geniusdev} alt="" />
+                            <h3>Geniusdev</h3>
+                        </div></a>
+                        <a href="https://projectworlds.in/" target='_blank'><div className='resources'>
+                            <img src={project} alt="" />
+                            <h3>Project Worlds</h3>
                         </div></a>
                     </div>
                 )}
