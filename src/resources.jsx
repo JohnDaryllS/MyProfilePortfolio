@@ -31,6 +31,18 @@ import gen from './assets/faviconV29.png'
 import jees from './assets/faviconsV30.png'
 import gsap from './assets/faviconsV31.png'
 import reveal from './assets/faviconV32.png'
+import udemy from './assets/faviconV33.png'
+import fcc from './assets/faviconV34.png'
+import w3 from './assets/faviconV35.png'
+import scorpion from './assets/faviconV36.png'
+import mluster from './assets/faviconV37.png'
+import real from './assets/faviconV38.png'
+import cpen from './assets/faviconV39.png'
+import typing from './assets/faviconV40.png'
+import onlinegdb from './assets/faviconV41.png'
+import visualgo from './assets/faviconV42.png'
+import utility from './assets/faviconV43.png'
+
 
 
 function Resources () {
@@ -54,7 +66,7 @@ function Resources () {
                 <li onClick={() => handleClick('3D')}>3D</li>
                 <li onClick={() => handleClick('Design')}>Design</li>
                 <li onClick={() => handleClick('API')}>API</li>
-                <li onClick={() => handleClick('OTHERS')}>Others</li>
+                <li onClick={() => handleClick('Others')}>Others</li>
             </ul>
         </div>
 
@@ -196,6 +208,50 @@ function Resources () {
                         <a href="https://acchou.github.io/html-css-cheat-sheet/animation.html#animation" target='_blank'><div className='resources'>
                             <img src={Pdefauts} alt="" />
                             <h3>Animation and Transition</h3>
+                        </div></a>
+                        <a href="https://www.udemy.com/" target='_blank'><div className='resources'>
+                            <img src={udemy} alt="" />
+                            <h3>Udemy</h3>
+                        </div></a>
+                        <a href="https://www.freecodecamp.org/learn" target='_blank'><div className='resources'>
+                            <img src={fcc} alt="" />
+                            <h3>FreeCodeCamp</h3>
+                        </div></a>
+                        <a href="https://www.w3schools.com/" target='_blank'><div className='resources'>
+                            <img src={w3} alt="" />
+                            <h3>W3schools</h3>
+                        </div></a>
+                        <a href="https://couponscorpion.com/" target='_blank'><div className='resources'>
+                            <img src={scorpion} alt="" />
+                            <h3>CouponScorpion</h3>
+                        </div></a>
+                        <a href="https://www.mindluster.com/" target='_blank'><div className='resources'>
+                            <img src={mluster} alt="" />
+                            <h3>Mind Luster</h3>
+                        </div></a>
+                        <a href="https://makereal.tldraw.com/" target='_blank'><div className='resources'>
+                            <img src={real} alt="" />
+                            <h3>make real tldraw</h3>
+                        </div></a>
+                        <a href="https://codepen.io/your-work" target='_blank'><div className='resources'>
+                            <img src={cpen} alt="" />
+                            <h3>Code Pen</h3>
+                        </div></a>
+                        <a href="https://www.typingtest.com/" target='_blank'><div className='resources'>
+                            <img src={typing} alt="" />
+                            <h3>Typing Test</h3>
+                        </div></a>
+                        <a href="https://www.onlinegdb.com/" target='_blank'><div className='resources'>
+                            <img src={onlinegdb} alt="" />
+                            <h3>OnlineGDB</h3>
+                        </div></a>
+                        <a href="https://visualgo.net/en" target='_blank'><div className='resources'>
+                            <img src={visualgo} alt="" />
+                            <h3>Visualgo</h3>
+                        </div></a>
+                        <a href="https://www.myinstants.com/" target='_blank'><div className='resources'>
+                            <img src={utility} alt="" />
+                            <h3>Myinstants</h3>
                         </div></a>
                     </div>
                 )}
@@ -373,8 +429,50 @@ function Resources () {
                 )}
                 {selectedSection === 'Others' && (
                     <div>
-                        <h3>UI Elements Resources</h3>
-                        <p>Learn more about UI Elements...</p>  
+                        <a href="https://www.udemy.com/" target='_blank'><div className='resources'>
+                            <img src={udemy} alt="" />
+                            <h3>Udemy</h3>
+                        </div></a>
+                        <a href="https://www.freecodecamp.org/learn" target='_blank'><div className='resources'>
+                            <img src={fcc} alt="" />
+                            <h3>FreeCodeCamp</h3>
+                        </div></a>
+                        <a href="https://www.w3schools.com/" target='_blank'><div className='resources'>
+                            <img src={w3} alt="" />
+                            <h3>W3schools</h3>
+                        </div></a>
+                        <a href="https://couponscorpion.com/" target='_blank'><div className='resources'>
+                            <img src={scorpion} alt="" />
+                            <h3>CouponScorpion</h3>
+                        </div></a>
+                        <a href="https://www.mindluster.com/" target='_blank'><div className='resources'>
+                            <img src={mluster} alt="" />
+                            <h3>Mind Luster</h3>
+                        </div></a>
+                        <a href="https://makereal.tldraw.com/" target='_blank'><div className='resources'>
+                            <img src={real} alt="" />
+                            <h3>make real tldraw</h3>
+                        </div></a>
+                        <a href="https://codepen.io/your-work" target='_blank'><div className='resources'>
+                            <img src={cpen} alt="" />
+                            <h3>Code Pen</h3>
+                        </div></a>
+                        <a href="https://www.typingtest.com/" target='_blank'><div className='resources'>
+                            <img src={typing} alt="" />
+                            <h3>Typing Test</h3>
+                        </div></a>
+                        <a href="https://www.onlinegdb.com/" target='_blank'><div className='resources'>
+                            <img src={onlinegdb} alt="" />
+                            <h3>OnlineGDB</h3>
+                        </div></a>
+                        <a href="https://visualgo.net/en" target='_blank'><div className='resources'>
+                            <img src={visualgo} alt="" />
+                            <h3>Visualgo</h3>
+                        </div></a>
+                        <a href="https://www.myinstants.com/" target='_blank'><div className='resources'>
+                            <img src={utility} alt="" />
+                            <h3>Myinstants</h3>
+                        </div></a>
                     </div>
                 )}
             </div>
