@@ -60,6 +60,14 @@ import project from './assets/faviconV58.png'
 import driver from './assets/faviconV59.png'
 import over from './assets/faviconV60.png'
 import svg from './assets/faviconV61.png'
+import pubapi from './assets/faviconV62.png'
+import cssicons from './assets/faviconV63.png'
+import magicui from './assets/faviconV64.png'
+import cssgrid from './assets/faviconV65.png'
+import fancy from './assets/faviconV66.png'
+import clippy from './assets/faviconV67.png'
+import colour from './assets/faviconV68.png'
+import mojs from './assets/faviconV69.png'
 
 
 function Resources () {
@@ -350,10 +358,54 @@ function Resources () {
                             <img src={svg} alt="" />
                             <h3>SVG Background</h3>
                         </div></a>
+                        <a href="https://rapidapi.com/collection/list-of-free-apis" target='_blank'><div className='resources'>
+                            <img src={pubapi} alt="" />
+                            <h3>Rapid</h3>
+                        </div></a>
+                        <a href="https://github.com/appbrewery/public-api-lists?tab=readme-ov-file" target='_blank'><div className='resources'>
+                            <img src={Pdefauts} alt="" />
+                            <h3>List of API's</h3>
+                        </div></a>
+                        <a href="https://cssicon.space/#/" target='_blank'><div className='resources'>
+                            <img src={cssicons} alt="" />
+                            <h3>CSS Icon Animate</h3>
+                        </div></a>
+                        <a href="https://magicui.design/" target='_blank'><div className='resources'>
+                            <img src={magicui} alt="" />
+                            <h3>MagicUI</h3>
+                        </div></a>
+                        <a href="https://cssbud.com/css-generator/css-glow-generator/" target='_blank'><div className='resources'>
+                            <img src={Pdefauts} alt="" />
+                            <h3>CSS BUD</h3>
+                        </div></a>
+                        <a href="https://cssgrid-generator.netlify.app/" target='_blank'><div className='resources'>
+                            <img src={cssgrid} alt="" />
+                            <h3>CSS Grid</h3>
+                        </div></a>
+                        <a href="https://9elements.github.io/fancy-border-radius/" target='_blank'><div className='resources'>
+                            <img src={fancy} alt="" />
+                            <h3>Fancy Border Radius</h3>
+                        </div></a>
+                        <a href="https://bennettfeely.com/clippy/" target='_blank'><div className='resources'>
+                            <img src={clippy} alt="" />
+                            <h3>Clippy --CSS clip-path maker</h3>
+                        </div></a>
+                        <a href="https://colourcontrast.cc/" target='_blank'><div className='resources'>
+                            <img src={colour} alt="" />
+                            <h3>Colour Contrast Checker</h3>
+                        </div></a>
+                        <a href="https://mojs.github.io/tutorials/getting-started.html#setup-mo-js-in-your-project" target='_blank'><div className='resources'>
+                            <img src={mojs} alt="" />
+                            <h3>mo.js</h3>
+                        </div></a>
                     </div>
                 )}
                 {selectedSection === 'CSS' && (
                     <div>
+                        <a href="https://9elements.github.io/fancy-border-radius/" target='_blank'><div className='resources'>
+                            <img src={fancy} alt="" />
+                            <h3>Fancy Border Radius</h3>
+                        </div></a>
                         <a href="https://cssgenerator.org/box-shadow-css-generator.html" target='_blank'><div className='resources'>
                             <img src={box} alt="" />
                             <h3>Box Shadow CSS Generator</h3>
@@ -405,6 +457,18 @@ function Resources () {
                         <a href="https://scrollrevealjs.org/" target='_blank'><div className='resources'>
                             <img src={reveal} alt="" />
                             <h3>ScrollReveal</h3>
+                        </div></a>
+                        <a href="https://cssbud.com/css-generator/css-glow-generator/" target='_blank'><div className='resources'>
+                            <img src={Pdefauts} alt="" />
+                            <h3>CSS BUD</h3>
+                        </div></a>
+                        <a href="https://cssgrid-generator.netlify.app/" target='_blank'><div className='resources'>
+                            <img src={cssgrid} alt="" />
+                            <h3>CSS Grid</h3>
+                        </div></a>
+                        <a href="https://bennettfeely.com/clippy/" target='_blank'><div className='resources'>
+                            <img src={clippy} alt="" />
+                            <h3>Clippy --CSS clip-path maker</h3>
                         </div></a>
                     </div>
                 )}
@@ -542,6 +606,10 @@ function Resources () {
                             <img src={svg} alt="" />
                             <h3>SVG Background</h3>
                         </div></a>
+                        <a href="https://magicui.design/" target='_blank'><div className='resources'>
+                            <img src={magicui} alt="" />
+                            <h3>MagicUI</h3>
+                        </div></a>
                     </div>
                 )}
                 {selectedSection === 'API' && (
@@ -557,6 +625,14 @@ function Resources () {
                         <a href="https://overapi.com/" target='_blank'><div className='resources'>
                             <img src={over} alt="" />
                             <h3>OverAPI</h3>
+                        </div></a>
+                        <a href="https://rapidapi.com/collection/list-of-free-apis" target='_blank'><div className='resources'>
+                            <img src={pubapi} alt="" />
+                            <h3>Rapid</h3>
+                        </div></a>
+                        <a href="https://github.com/appbrewery/public-api-lists?tab=readme-ov-file" target='_blank'><div className='resources'>
+                            <img src={Pdefauts} alt="" />
+                            <h3>List of Public API's</h3>
                         </div></a>
                     </div>
                 )}
@@ -653,6 +729,10 @@ function Resources () {
                         <a href="https://projectworlds.in/" target='_blank'><div className='resources'>
                             <img src={project} alt="" />
                             <h3>Project Worlds</h3>
+                        </div></a>
+                        <a href="https://mojs.github.io/tutorials/getting-started.html#setup-mo-js-in-your-project" target='_blank'><div className='resources'>
+                            <img src={mojs} alt="" />
+                            <h3>mo.js</h3>
                         </div></a>
                     </div>
                 )}
