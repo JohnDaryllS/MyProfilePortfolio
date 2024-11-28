@@ -59,6 +59,7 @@ import akoya from './assets/faviconV57.png'
 import project from './assets/faviconV58.png'
 import driver from './assets/faviconV59.png'
 import over from './assets/faviconV60.png'
+import svg from './assets/faviconV61.png'
 
 
 function Resources () {
@@ -345,6 +346,10 @@ function Resources () {
                             <img src={over} alt="" />
                             <h3>OverAPI</h3>
                         </div></a>
+                        <a href="https://www.svgbackgrounds.com/" target='_blank'><div className='resources'>
+                            <img src={svg} alt="" />
+                            <h3>SVG Background</h3>
+                        </div></a>
                     </div>
                 )}
                 {selectedSection === 'CSS' && (
@@ -420,6 +425,10 @@ function Resources () {
                         <a href="http://logobook.com/" target='_blank'><div className='resources'>
                             <img src={Pdefauts} alt="" />
                             <h3>LogoBook</h3>
+                        </div></a>
+                        <a href="https://www.svgbackgrounds.com/" target='_blank'><div className='resources'>
+                            <img src={svg} alt="" />
+                            <h3>SVG Background</h3>
                         </div></a>
                     </div>
                 )}
@@ -528,6 +537,10 @@ function Resources () {
                         <a href="https://akoyamockups.com/" target='_blank'><div className='resources'>
                             <img src={akoya} alt="" />
                             <h3>Akoya</h3>
+                        </div></a>
+                        <a href="https://www.svgbackgrounds.com/" target='_blank'><div className='resources'>
+                            <img src={svg} alt="" />
+                            <h3>SVG Background</h3>
                         </div></a>
                     </div>
                 )}
