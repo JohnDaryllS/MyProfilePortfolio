@@ -1,4 +1,7 @@
 import myprofile from './assets/myprofile.jpg'
+import css from './assets/CSS CERTIFICATE.png'
+import webdev from './assets/WEBDEV CERTIFICATE.png'
+import vgd from './assets/VGD CERTIFICATE.png'
 import Animation from './assets/Certificate - Animation.png'
 import one from './assets/UC-9d38b366-d1cc-4d90-9760-6631242335fd.jpg'
 import two from './assets/UC-10f504b0-bf28-4150-8a38-c7760c04df94.jpg'
@@ -88,21 +91,21 @@ function Achievements () {
                     <h3>Computer System Servicing - National Certificate II</h3>
                     <p>Issued on : March 26, 2019 - Valid Until: March 25, 2024</p>
                 </div>
-                <a href=""><button>View Certificate</button></a>
+                <a href={css} target='_blank'><button>View Certificate</button></a>
             </div>
             <div className='ncs'>
                 <div className='text-container'>
                     <h3>Visual Graphic Design - National Certificate III</h3>
                     <p>Issued on : December 9, 2022 - Valid Until: December 8, 2027</p>
                 </div>
-                <a href=""><button>View Certificate</button></a>
+                <a href={vgd} target='_blank'><button>View Certificate</button></a>
             </div>
             <div className='ncs'>
                 <div className='text-container'>
                     <h3>Web Development - National Certificate III</h3>
                     <p>Issued on : March 13, 2023 - Valid Until: March 12, 2028</p>
                 </div>
-                <a href=""><button>View Certificate</button></a>
+                <a href={webdev} target='_blank'><button>View Certificate</button></a>
             </div>
             <div className='ncs'>
                 <div className='text-container'>

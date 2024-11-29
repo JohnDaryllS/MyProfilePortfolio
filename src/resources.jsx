@@ -68,6 +68,8 @@ import fancy from './assets/faviconV66.png'
 import clippy from './assets/faviconV67.png'
 import colour from './assets/faviconV68.png'
 import mojs from './assets/faviconV69.png'
+import huge from './assets/faviconV70.png'
+
 
 
 function Resources () {
@@ -398,6 +400,10 @@ function Resources () {
                             <img src={mojs} alt="" />
                             <h3>mo.js</h3>
                         </div></a>
+                        <a href="https://hugeicons.com/" target='_blank'><div className='resources'>
+                            <img src={huge} alt="" />
+                            <h3>hugericons</h3>
+                        </div></a>
                     </div>
                 )}
                 {selectedSection === 'CSS' && (
@@ -493,6 +499,10 @@ function Resources () {
                         <a href="https://www.svgbackgrounds.com/" target='_blank'><div className='resources'>
                             <img src={svg} alt="" />
                             <h3>SVG Background</h3>
+                        </div></a>
+                        <a href="https://hugeicons.com/" target='_blank'><div className='resources'>
+                            <img src={huge} alt="" />
+                            <h3>hugericons</h3>
                         </div></a>
                     </div>
                 )}

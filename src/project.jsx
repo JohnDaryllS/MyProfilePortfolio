@@ -93,7 +93,7 @@ function Projects () {
 
         <div className="card2">
             <h2>Projects</h2>
-            <p>I currently have 28 projects but some of them are not a website, for example, C++, VBA, and JAVA.</p> <br />
+            <p>I currently have 28 projects, and some of them use programming languages such as C++, VBA, and Java.</p> <br />
             <marquee scrollamount="15" direction="left"><p>Hover the Image to see my Website project live or you want the source code.</p></marquee>
         <div className="cardproject">
             <img src={Crazyone} alt="Card Image 1"/>
