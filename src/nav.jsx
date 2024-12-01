@@ -1,6 +1,8 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 function Navigation() {
+    const location = useLocation();
+
     return (
         <nav>
             <div className="nav-content">
@@ -8,11 +10,21 @@ function Navigation() {
                     <a href="#">Profile Portfolio</a>
                 </div>
                 <ul className="nav-links">
-                    <li><Link to="/profile">Profile</Link></li>
-                    <li><Link to="/achievements">Achievements</Link></li>
-                    <li><Link to="/project">Project</Link></li>
-                    <li><Link to="/resources">Resources</Link></li>
-                    <li><Link to="/contact">Contact</Link></li>
+                    <li>
+                        <Link to="/profile" className={location.pathname === "/profile" ? "active" : ""}>Profile</Link>
+                    </li>
+                    <li>
+                        <Link to="/achievements" className={location.pathname === "/achievements" ? "active" : ""}>Achievements </Link>
+                    </li>
+                    <li>
+                        <Link to="/project" className={location.pathname === "/project" ? "active" : ""}>Project</Link>
+                    </li>
+                    <li>
+                        <Link to="/resources" className={location.pathname === "/resources" ? "active" : ""}>Resources</Link>
+                    </li>
+                    <li>
+                        <Link to="/contact"className={location.pathname === "/contact" ? "active" : ""}>Contact</Link>
+                    </li>
                 </ul>
             </div>
         </nav>

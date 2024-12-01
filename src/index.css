@@ -57,6 +57,12 @@ nav.sticky .logo a{
    color: #ffd900b0;
    border-bottom: 3px solid #FFD700;
  }
+
+ .nav-links li a.active {
+  border-bottom: 3px solid #FFD700;
+  color: #ffd900b0;
+}
+
  nav.sticky .nav-links li a{
    color: #fff;
    transition: all 0.4s ease;
