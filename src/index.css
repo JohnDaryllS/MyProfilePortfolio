@@ -527,6 +527,101 @@ form button:hover {
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
+  /* RESPONSIVE NAVIGATION*/
+  nav .logo a{
+    font-weight: 600;
+    font-size: 30px;
+  }
+
+   .nav-links li a{
+    font-size: 15px;
+    font-weight: 900;
+    padding: 10px 1px;
+    float: left;
+  }
+
+  /* RESPONSIVE PROFILE*/
+  .card {
+    width: 90%;
+    height: 800px;
+    padding: 10px 120px;
+    margin: 130px 20px 0 50px;
+  }
+  
+  .btn-btn {
+    gap: 0.4rem;
+    margin-right: 1px;
+    font-weight: 500;
+    font-size: 0.65rem;
+  }
+  
+  .card2 {
+    width: 90%;
+    height: 800px;
+    margin: 60px 20px 30px 20px;
+    padding: 8px;
+  }
+  
+  /* RESPONSIVE ACHIEVEMENT*/
+  .cardcert {
+    width: 90%;
+    height: 800px;
+    padding: 10px;
+    margin: 30px 20px 30px 20px;
+  }
+  
+  .cardcert h2 {
+    margin-top: 30px;
+    font-size: 30px;
+  }
+  
+  .ncs {
+    width: 100%;
+    height: 100px;
+    padding: 0 20px;
+    margin: 10px;
+  }
+  
+  .cardcert h3 {
+    font-size: 20px;
+  }
+
+  .cardcert p {
+    font-size: 15px;
+    margin: 5px 0 0 0;
+  }
+  
+  .cardcert button {
+    height: 40px;
+    width: 110px;
+  }
+  
+  /* RESPONSIVE RESOURCES*/
+  .card3 {
+    width: 150px;
+    padding: 5px;
+    margin: 50px 10px 0 10px;
+  }
+
+  .card4 {
+    width: 75%;
+    padding: 20px;
+    margin: 50px 10px 30px 10px;
+    float: left;
+  }
+  
+  .card4 .resources {
+    width: 200px;
+  }
+  
+
+  /* RESPONSIVE CONTACT*/
+  
+  .contact {
+    width: 90%;
+    padding: 10px 30px;
+    margin: 30px 30px 50px 30px;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
